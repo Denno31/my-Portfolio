@@ -6,6 +6,9 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 
 class Home extends Component {
+  componentDidMount() {
+    document.title = "Dennis's portfolio";
+  }
   render() {
     console.log(this.props.theme);
     return (

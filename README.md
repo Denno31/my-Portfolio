@@ -134,12 +134,11 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 
 ## Other
 
- - You need to change the website title and other descriptions in `public/index.html`
- 
- - You can define your own favicon in `public/icons` directory. If you don't have a favicon, you can generate favicons from [Favicon Generator](https://www.favicon-generator.org/) and [Favicon IO](https://favicon.io/)
+- You need to change the website title and other descriptions in `public/index.html`
 
- - Also you can edit your website preview known as description image. Run your site locally, take a screenshot and replace with `public/icons/desc.png`. Note that your screenshot should be 1280x640 for better preview
+- You can define your own favicon in `public/icons` directory. If you don't have a favicon, you can generate favicons from [Favicon Generator](https://www.favicon-generator.org/) and [Favicon IO](https://favicon.io/)
 
+- Also you can edit your website preview known as description image. Run your site locally, take a screenshot and replace with `public/icons/desc.png`. Note that your screenshot should be 1280x640 for better preview
 
 # Choose Theme 🌈
 
@@ -164,7 +163,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - Run `npm run build` to generate the production build folder.
 - Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository on github. That's it. It's Done.
 - You may need to `git init` and force push at every new build.
-**Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
+  **Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
 
 - Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
 - The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
